@@ -1,0 +1,47 @@
+.promocoes_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em;
+}
+
+.promocoes_container h1 {
+  padding: 0.2em;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background-color: #428bbb;
+  width: 80%;
+  font-size: 1.5em;
+  /* margin-bottom: 0.5em; */
+}
+
+.promocoes_container h2 {
+  font-size: 1.7em;
+  margin-top: 0.8em;
+  /* margin-bottom: 0.1em; */
+}
+
+.promocoes_container p {
+  width: 90%;
+  padding: 0.5em;
+  justify-content: center;
+}
+
+.promocoes_container div {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  background-color: #428bbb;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.promocoes_container table {
+  border-radius: 10px;
+  width: 100%;
+  background-color: bisque;
+  text-align: center;
+  padding: 8px;
+}

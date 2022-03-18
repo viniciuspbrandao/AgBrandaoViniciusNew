@@ -1,0 +1,26 @@
+.contato_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em;
+}
+
+.contato_container h3 {
+  color: bisque;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.contato_container p {
+  width: 65%;
+  padding: 0.5em;
+  justify-content: center;
+}
+
+.contato_container div {
+  width: 65%;
+  padding: 0.5rem;
+  background-color: #428bbb;
+  border-radius: 10px;
+}
