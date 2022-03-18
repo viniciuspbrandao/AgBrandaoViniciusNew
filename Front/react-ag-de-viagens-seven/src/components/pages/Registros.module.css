@@ -1,0 +1,47 @@
+.registros_subtitulo {
+  /* Classe do subtitulo */
+  align-items: center;
+}
+
+.passeios_container {
+  /* Classe do titulo */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4em;
+}
+
+.passeios_container h1 {
+  /* Classe fundo do titulo */
+  padding: 0.2em;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background-color: #428bbb;
+  width: 80%;
+  font-size: 1.5em;
+}
+
+.passeios_container p {
+  width: 90%;
+  padding: 0.5em;
+  justify-content: center;
+}
+
+.passeios_container div {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  background-color: #428bbb;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}
+
+.passeios_container table {
+  border-radius: 10px;
+  width: 90rem;
+  background-color: bisque;
+  text-align: center;
+  padding: 8px;
+}

@@ -1,6 +1,7 @@
 import styles from './Promocoes.module.css'
 import Table from 'react-bootstrap/Table'
 // import Button from 'react-bootstrap/Button'
+
 import Dropdown from 'react-bootstrap/Dropdown'
 
 function Promocoes() {
@@ -51,9 +52,9 @@ function Promocoes() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Criar</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Ver Registros</Dropdown.Item>
-            <Dropdown.Item href="#/action-4">Deletar</Dropdown.Item>
+            <Dropdown.Item href="/criarpromo">Criar</Dropdown.Item>
+            <Dropdown.Item href="/registros">Ver Registros</Dropdown.Item>
+            <Dropdown.Item href="/deletar">Deletar</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>

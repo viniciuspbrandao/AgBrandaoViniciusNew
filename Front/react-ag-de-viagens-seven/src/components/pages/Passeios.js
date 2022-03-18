@@ -1,7 +1,6 @@
 import styles from './Passeios.module.css'
 import Table from 'react-bootstrap/Table'
-// import Button from 'react-bootstrap/Button'
-// import ButtonGroup from 'react-bootstrap/ButtonGroup'
+
 import Dropdown from 'react-bootstrap/Dropdown'
 
 function Passeios() {
@@ -9,7 +8,7 @@ function Passeios() {
     <section className={styles.passeios_container}>
       <h1>PASSEIOS</h1>
 
-      {/* ===================== TABELA  */}
+      {/* ===================== TABELA ===================== */}
       <div>
         <Table striped bordered hover>
           <thead>
@@ -54,9 +53,9 @@ function Passeios() {
           </tbody>
         </Table>
       </div>
-      {/* //////////// ======== TABELA */}
+      {/* //////////// ======== TABELA =====================*/}
 
-      {/* botoes */}
+      {/* ===================== botoes =====================*/}
       <div>
         <Dropdown>
           <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -64,13 +63,13 @@ function Passeios() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Criar</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Ver Registros</Dropdown.Item>
-            <Dropdown.Item href="#/action-4">Deletar</Dropdown.Item>
+            <Dropdown.Item href="/criarpasseio">Criar</Dropdown.Item>
+            <Dropdown.Item href="/registros">Ver Registros</Dropdown.Item>
+            <Dropdown.Item href="/deletar">Deletar</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>
-      {/* ///////// ========== botoes */}
+      {/* ///////// ========== botoes =====================*/}
     </section>
   )
 }
